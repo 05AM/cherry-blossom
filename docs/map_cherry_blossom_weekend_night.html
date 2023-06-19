@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_04faf6353888b0ed63edd77499a1640a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_04faf6353888b0ed63edd77499a1640a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_04faf6353888b0ed63edd77499a1640a = L.map(
+                "map_04faf6353888b0ed63edd77499a1640a",
+                {
+                    center: [37.534272313844, 126.97534763076],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f2fb6639a51f3dabc081e5850c14a722 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+            var circle_marker_739baea857161378083b042524f9c6ef = L.circleMarker(
+                [37.533100700000006, 126.9199973],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 78.715, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_b4d9465a7bc2ddfa2f67411523145cbf = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_d68d049cf4ef95b2a6b7feeddb4744bd = $(`<div id="html_d68d049cf4ef95b2a6b7feeddb4744bd" style="width: 100.0%; height: 100.0%;"><b>여의 동·서로(윤중로)</b><br><br>- 길이 : 6.9㎞<br>- 국회의사당역 2번출구<br>- 여의도 국회주변 화려한 벚꽃이 장관을 이루며 매년 ‘한강 여의도 봄꽃축제’ 개최(나들이, 산책)</div>`)[0];
+                popup_b4d9465a7bc2ddfa2f67411523145cbf.setContent(html_d68d049cf4ef95b2a6b7feeddb4744bd);
+            
+        
+
+        circle_marker_739baea857161378083b042524f9c6ef.bindPopup(popup_b4d9465a7bc2ddfa2f67411523145cbf)
+        ;
+
+        
+    
+    
+            var circle_marker_c31b9c713089c367a1232af1f04c37e1 = L.circleMarker(
+                [37.506240600000005, 127.09771629999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 63.69, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_bf05f1a1b8060d77d062d4e68cda8d64 = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_6940bc03974c09964992c6c197b467dd = $(`<div id="html_6940bc03974c09964992c6c197b467dd" style="width: 100.0%; height: 100.0%;"><b>송파나루공원(석촌호수)</b><br><br>- 길이 : 2.5km<br>- 잠실역 3번출구<br>- 석촌호수와 어우러져 피는 벚꽃, 철쭉, 야생화가 아름다움(산책, 운동)</div>`)[0];
+                popup_bf05f1a1b8060d77d062d4e68cda8d64.setContent(html_6940bc03974c09964992c6c197b467dd);
+            
+        
+
+        circle_marker_c31b9c713089c367a1232af1f04c37e1.bindPopup(popup_bf05f1a1b8060d77d062d4e68cda8d64)
+        ;
+
+        
+    
+    
+            var circle_marker_2f461882cb041baecab8e7cc5fbb17a6 = L.circleMarker(
+                [37.4807172, 126.9882185],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 42.41, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_a258ca931241fe3528e9339c6f20dbfc = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_a3c53f0c07c3703520e12ee39374506d = $(`<div id="html_a3c53f0c07c3703520e12ee39374506d" style="width: 100.0%; height: 100.0%;"><b>도구로(도구머리꽃길)</b><br><br>- 길이 : 0.4km<br>- 사당역 13번출구<br>- 도구머리공원 사잇길을 따라 한적하게 산책하기 좋은 꽃길(산책)</div>`)[0];
+                popup_a258ca931241fe3528e9339c6f20dbfc.setContent(html_a3c53f0c07c3703520e12ee39374506d);
+            
+        
+
+        circle_marker_2f461882cb041baecab8e7cc5fbb17a6.bindPopup(popup_a258ca931241fe3528e9339c6f20dbfc)
+        ;
+
+        
+    
+    
+            var circle_marker_b4fc078f3058038d9e0631f7dbb5e889 = L.circleMarker(
+                [37.5523059, 126.9048429],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 39.925, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_922367c1a552435fc585944aec14a293 = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_0ac38f10d4902c9a64508117d22d47ab = $(`<div id="html_0ac38f10d4902c9a64508117d22d47ab" style="width: 100.0%; height: 100.0%;"><b>희우정로(양화로11 ~망원정사거리)</b><br><br>- 길이 : 0.5km<br>- 망원역 2번출구<br>- 주민들의 산책로에 벚꽃으로 아름다운 경관 제공(산책)</div>`)[0];
+                popup_922367c1a552435fc585944aec14a293.setContent(html_0ac38f10d4902c9a64508117d22d47ab);
+            
+        
+
+        circle_marker_b4fc078f3058038d9e0631f7dbb5e889.bindPopup(popup_922367c1a552435fc585944aec14a293)
+        ;
+
+        
+    
+    
+            var circle_marker_8aeee527d4c1aa3cbffb564382960d0d = L.circleMarker(
+                [37.4582394, 126.89417659999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29.24, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_be8baddd75dd43af9a153eba0a2018c7 = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_d99631e5cad8283742a6ed1789dc8d3c = $(`<div id="html_d99631e5cad8283742a6ed1789dc8d3c" style="width: 100.0%; height: 100.0%;"><b>벚꽃로(독산역~가산디지털단지역)</b><br><br>- 길이 : 3.4㎞<br>- 금천구청역 1번출구<br>- 십리에 이르는 철도가로변에 벚꽃길이 아름다움(드라이브)</div>`)[0];
+                popup_be8baddd75dd43af9a153eba0a2018c7.setContent(html_d99631e5cad8283742a6ed1789dc8d3c);
+            
+        
+
+        circle_marker_8aeee527d4c1aa3cbffb564382960d0d.bindPopup(popup_be8baddd75dd43af9a153eba0a2018c7)
+        ;
+
+        
+    
+    
+            var circle_marker_c260b4b772d97ff5a9b1d068ce53e007 = L.circleMarker(
+                [37.5539469, 126.9899134],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.985, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_930075e7cdad6d277f37d74aac55a9a5 = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_902b25d4743338ba1e3651143f73946d = $(`<div id="html_902b25d4743338ba1e3651143f73946d" style="width: 100.0%; height: 100.0%;"><b>남산공원 순환로</b><br><br>- 길이 : 5.0㎞<br>- 명동역 1번출구<br>- 연분홍 벚꽃길이 아름다운 경관을 제공(운동, 나들이)</div>`)[0];
+                popup_930075e7cdad6d277f37d74aac55a9a5.setContent(html_902b25d4743338ba1e3651143f73946d);
+            
+        
+
+        circle_marker_c260b4b772d97ff5a9b1d068ce53e007.bindPopup(popup_930075e7cdad6d277f37d74aac55a9a5)
+        ;
+
+        
+    
+    
+            var circle_marker_4ee1d3642e923995faacec2e0867bb5c = L.circleMarker(
+                [37.5794831, 126.93800230000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.29, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_9d42ea76adea60822c196791cf50f09f = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_4e537341af9afe0cb41858917c3849cc = $(`<div id="html_4e537341af9afe0cb41858917c3849cc" style="width: 100.0%; height: 100.0%;"><b>안산도시자연공원 (안산문화쉼터벚꽃길)</b><br><br>- 길이 : 2.0㎞<br>- 무악재역 4번출구<br>- 안산 입구로 왕벚나무가 만개할 때 드라마 촬영지로 각광을 받고 있음(나들이, 산책)</div>`)[0];
+                popup_9d42ea76adea60822c196791cf50f09f.setContent(html_4e537341af9afe0cb41858917c3849cc);
+            
+        
+
+        circle_marker_4ee1d3642e923995faacec2e0867bb5c.bindPopup(popup_9d42ea76adea60822c196791cf50f09f)
+        ;
+
+        
+    
+    
+            var circle_marker_23acccc896de6f5fc537e523c2bdfdab = L.circleMarker(
+                [37.5519, 127.10593],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.095, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_229b9caf95de9ac5befa157d35af2639 = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_500a78d661b27624d52a24de9260c9d8 = $(`<div id="html_500a78d661b27624d52a24de9260c9d8" style="width: 100.0%; height: 100.0%;"><b>워커힐길</b><br><br>- 길이 : 1.5㎞<br>- 광나루역 1번출구<br>- 연분홍색과 벚꽃과 아차산의 경관이 어우러져 아름다움 (드라이브,산책)</div>`)[0];
+                popup_229b9caf95de9ac5befa157d35af2639.setContent(html_500a78d661b27624d52a24de9260c9d8);
+            
+        
+
+        circle_marker_23acccc896de6f5fc537e523c2bdfdab.bindPopup(popup_229b9caf95de9ac5befa157d35af2639)
+        ;
+
+        
+    
+    
+            var circle_marker_431d74229110d4c1749ac2d6964ecbf6 = L.circleMarker(
+                [37.6214313, 127.0406246],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.415, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_ae1018b44617d7b52f082f93f02be7ae = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_c47d16d0e9a3bec2d83966a156308e6f = $(`<div id="html_c47d16d0e9a3bec2d83966a156308e6f" style="width: 100.0%; height: 100.0%;"><b>북서울 꿈의 숲 월영지 주변</b><br><br>- 길이 : 4.0km<br>- 미아사거리역 1번출구<br>- 연분홍색의 벚꽃이 월영지, 월광폭포와 어울려 아름다운 경관을 제공(나들이, 산책)</div>`)[0];
+                popup_ae1018b44617d7b52f082f93f02be7ae.setContent(html_c47d16d0e9a3bec2d83966a156308e6f);
+            
+        
+
+        circle_marker_431d74229110d4c1749ac2d6964ecbf6.bindPopup(popup_ae1018b44617d7b52f082f93f02be7ae)
+        ;
+
+        
+    
+    
+            var circle_marker_b6fe00d5a6e029c2e76f552f8de5d950 = L.circleMarker(
+                [37.5456749, 127.1262186],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.105, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_d62e027237fd9dd952e4c43840fdd7bc = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_d3c44f37e4e476fa27bcd6a2697dfb9b = $(`<div id="html_d3c44f37e4e476fa27bcd6a2697dfb9b" style="width: 100.0%; height: 100.0%;"><b>올림픽로(광진교 남단 ~ LG전자사거리)</b><br><br>- 길이 : 0.7km<br>- 천호역 3번출구<br>- 가로변 벚꽃이 아름다움(산책)</div>`)[0];
+                popup_d62e027237fd9dd952e4c43840fdd7bc.setContent(html_d3c44f37e4e476fa27bcd6a2697dfb9b);
+            
+        
+
+        circle_marker_b6fe00d5a6e029c2e76f552f8de5d950.bindPopup(popup_d62e027237fd9dd952e4c43840fdd7bc)
+        ;
+
+        
+    
+    
+            var circle_marker_8d2f8203b782bdc7f26bbf19461ca867 = L.circleMarker(
+                [37.487549, 126.9129603],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.615, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_ed62d763a9479b0847379304334d1b03 = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_eee7b3f0f220139b4f90239df82eaecf = $(`<div id="html_eee7b3f0f220139b4f90239df82eaecf" style="width: 100.0%; height: 100.0%;"><b>도림천(신대방역~시흥대로)</b><br><br>- 길이 : 1.0km<br>- 신대방역 4번출구<br>- 제방위 산책로에 벚꽃이 만개하면 아름다운 경관 연출(산책, 운동)</div>`)[0];
+                popup_ed62d763a9479b0847379304334d1b03.setContent(html_eee7b3f0f220139b4f90239df82eaecf);
+            
+        
+
+        circle_marker_8d2f8203b782bdc7f26bbf19461ca867.bindPopup(popup_ed62d763a9479b0847379304334d1b03)
+        ;
+
+        
+    
+    
+            var circle_marker_7d0e0cf1bc77473c0369294ec9931f62 = L.circleMarker(
+                [37.4702778, 127.03083329999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.52, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_8d7b18a34a79f8cbfde8503b5dc321b9 = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_f263039bc846bc7df81cc2da30dc7097 = $(`<div id="html_f263039bc846bc7df81cc2da30dc7097" style="width: 100.0%; height: 100.0%;"><b>양재천변</b><br><br>- 길이 : 2.5㎞<br>- 양재시민의숲역 1번출구<br>- 하천변 산책로를 따라 봄꽃을 감상할 수 있음(산책, 운동)</div>`)[0];
+                popup_8d7b18a34a79f8cbfde8503b5dc321b9.setContent(html_f263039bc846bc7df81cc2da30dc7097);
+            
+        
+
+        circle_marker_7d0e0cf1bc77473c0369294ec9931f62.bindPopup(popup_8d7b18a34a79f8cbfde8503b5dc321b9)
+        ;
+
+        
+    
+    
+            var circle_marker_e8c7b411c746f6cae29196ae27f50416 = L.circleMarker(
+                [37.544387799999996, 127.03744240000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.24, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_c340a04a6163957bc4f622b6857a0ade = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_f56afc181690dbcf26dd10c96a1f97f8 = $(`<div id="html_f56afc181690dbcf26dd10c96a1f97f8" style="width: 100.0%; height: 100.0%;"><b>서울숲 벚나무길</b><br><br>- 길이 : 0.7㎞<br>- 뚝섬역 7번출구<br>- 연분홍 벚꽃과 화사한 색감의 튤립이 돋보임(나들이, 산책)</div>`)[0];
+                popup_c340a04a6163957bc4f622b6857a0ade.setContent(html_f56afc181690dbcf26dd10c96a1f97f8);
+            
+        
+
+        circle_marker_e8c7b411c746f6cae29196ae27f50416.bindPopup(popup_c340a04a6163957bc4f622b6857a0ade)
+        ;
+
+        
+    
+    
+            var circle_marker_cdef701248178af2a0c38235c9431cc7 = L.circleMarker(
+                [37.543645899999994, 126.94902420000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.115, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_a53b1a60290b2fe5c0de24663df70124 = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_f1f9dee13109d5ee0850e4dac8887a74 = $(`<div id="html_f1f9dee13109d5ee0850e4dac8887a74" style="width: 100.0%; height: 100.0%;"><b>경의선숲길(공덕역~대흥역)</b><br><br>- 길이 : 0.8㎞<br>- 공덕역 1번출구<br>- 산책로를 따라 피어난 벚꽃이 다양한 수목들과 어우러져 아름다움을 경관 연출(산책)</div>`)[0];
+                popup_a53b1a60290b2fe5c0de24663df70124.setContent(html_f1f9dee13109d5ee0850e4dac8887a74);
+            
+        
+
+        circle_marker_cdef701248178af2a0c38235c9431cc7.bindPopup(popup_a53b1a60290b2fe5c0de24663df70124)
+        ;
+
+        
+    
+    
+            var circle_marker_0c0199496c1903504e378b6d2826571b = L.circleMarker(
+                [37.491451500000004, 126.83307930000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_f3c97b31ac5e52964fd522da12212eeb = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_d4fa6bc6a8b779a72f3b05a17aff86b9 = $(`<div id="html_d4fa6bc6a8b779a72f3b05a17aff86b9" style="width: 100.0%; height: 100.0%;"><b>오리로</b><br><br>- 길이 : 1.0km<br>- 온수역 1번출구<br>- 궁동생태공원 인근 벚나무가 식재된 거리 꽃길을 조망(산책)</div>`)[0];
+                popup_f3c97b31ac5e52964fd522da12212eeb.setContent(html_d4fa6bc6a8b779a72f3b05a17aff86b9);
+            
+        
+
+        circle_marker_0c0199496c1903504e378b6d2826571b.bindPopup(popup_f3c97b31ac5e52964fd522da12212eeb)
+        ;
+
+        
+    
+    
+            var circle_marker_8898e62c16fa134e165779f31453c897 = L.circleMarker(
+                [37.5075718, 127.1354254],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.065, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_f84edcafca2eb4512f199278dafa663a = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_dda0d8102e25a82113bd8f99dc4a11c1 = $(`<div id="html_dda0d8102e25a82113bd8f99dc4a11c1" style="width: 100.0%; height: 100.0%;"><b>성내천 둔치(위례성길~복개종점)</b><br><br>- 길이 : 1.8km<br>- 방이역 1번출구<br>- 주민헌수를 통하여 식재한 왕벚나무 400여주가 만개하여 아름다운 경관을 연출함(산책, 운동)</div>`)[0];
+                popup_f84edcafca2eb4512f199278dafa663a.setContent(html_dda0d8102e25a82113bd8f99dc4a11c1);
+            
+        
+
+        circle_marker_8898e62c16fa134e165779f31453c897.bindPopup(popup_f84edcafca2eb4512f199278dafa663a)
+        ;
+
+        
+    
+    
+            var circle_marker_18a721645182253049229128fe97abf6 = L.circleMarker(
+                [37.6236785, 127.0900231],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.904999999999999, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_0ee6ff7b7119a8f4366361059d42bbda = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_4bedda8cbe8f1481b597d7c50205698c = $(`<div id="html_4bedda8cbe8f1481b597d7c50205698c" style="width: 100.0%; height: 100.0%;"><b>경춘선 숲길</b><br><br>- 길이 : 0.4km<br>- 화랑대역 1번출구<br>- 철길을 따라 아름다운 벚꽃길 연출(산책)</div>`)[0];
+                popup_0ee6ff7b7119a8f4366361059d42bbda.setContent(html_4bedda8cbe8f1481b597d7c50205698c);
+            
+        
+
+        circle_marker_18a721645182253049229128fe97abf6.bindPopup(popup_0ee6ff7b7119a8f4366361059d42bbda)
+        ;
+
+        
+    
+    
+            var circle_marker_7fa9a553f8d21e686d17df68e2f24a56 = L.circleMarker(
+                [37.5495886, 127.08157800000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.75, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_1d3ce59fc8ad596d539b6c70cdd0f896 = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_84b8ae81861cfa478312837b9918a9d1 = $(`<div id="html_84b8ae81861cfa478312837b9918a9d1" style="width: 100.0%; height: 100.0%;"><b>어린이대공원 산책로</b><br><br>- 길이 : 1.5㎞<br>- 아차산역 4번출구<br>- 벚꽃길이 아름다워 가족, 연인들의 나들이 장소로 최적(나들이, 산책)</div>`)[0];
+                popup_1d3ce59fc8ad596d539b6c70cdd0f896.setContent(html_84b8ae81861cfa478312837b9918a9d1);
+            
+        
+
+        circle_marker_7fa9a553f8d21e686d17df68e2f24a56.bindPopup(popup_1d3ce59fc8ad596d539b6c70cdd0f896)
+        ;
+
+        
+    
+    
+            var circle_marker_b53d37182e50a25c12d662cb5a83fb67 = L.circleMarker(
+                [37.5290803, 126.88794850000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.27, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_4d536581c67654524a41f9739e5dd9e1 = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_aa59837f0e55214006db74edabfc8f85 = $(`<div id="html_aa59837f0e55214006db74edabfc8f85" style="width: 100.0%; height: 100.0%;"><b>안양천 제방(신정교~양평교)</b><br><br>- 길이 : 3.0㎞<br>- 양평역 1번출구<br>- 안양천을 따라 산책로가 조성되어 있고 산책로변으로 꽃이 아름다움(나들이, 산책, 운동)</div>`)[0];
+                popup_4d536581c67654524a41f9739e5dd9e1.setContent(html_aa59837f0e55214006db74edabfc8f85);
+            
+        
+
+        circle_marker_b53d37182e50a25c12d662cb5a83fb67.bindPopup(popup_4d536581c67654524a41f9739e5dd9e1)
+        ;
+
+        
+    
+    
+            var circle_marker_3bc811a04b40aeb049b5947561ab5932 = L.circleMarker(
+                [37.584173299999996, 127.07534840000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.77, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_39bdaed9c2caa377a2c2050616864627 = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_08353c422c1f598f547dea446d565630 = $(`<div id="html_08353c422c1f598f547dea446d565630" style="width: 100.0%; height: 100.0%;"><b>중랑천제방(공원녹지순환길)</b><br><br>- 길이 : 3.0㎞<br>- 외대앞역 3번출구<br>- 공원녹지 순환길을 따라 아름다운 벚꽃길 연출(산책, 운동)</div>`)[0];
+                popup_39bdaed9c2caa377a2c2050616864627.setContent(html_08353c422c1f598f547dea446d565630);
+            
+        
+
+        circle_marker_3bc811a04b40aeb049b5947561ab5932.bindPopup(popup_39bdaed9c2caa377a2c2050616864627)
+        ;
+
+        
+    
+    
+            var circle_marker_bf3d7fcf6a5e4913b2baaae84b351b9b = L.circleMarker(
+                [37.4932342, 126.9197115],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.58, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_5fe64939d4154fe16140ab3e0c8696d3 = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_b8a5510874587defe656e9dd1b0ede9b = $(`<div id="html_b8a5510874587defe656e9dd1b0ede9b" style="width: 100.0%; height: 100.0%;"><b>보라매공원</b><br><br>- 길이 : 0.2km<br>- 보라매역 1번출구<br>- 공원 내 전시된 공군항공기와 봄철 화려하게 핀 벚꽃을  한눈에 담을 수 있는 경관이 돋보임(나들이,포토존)</div>`)[0];
+                popup_5fe64939d4154fe16140ab3e0c8696d3.setContent(html_b8a5510874587defe656e9dd1b0ede9b);
+            
+        
+
+        circle_marker_bf3d7fcf6a5e4913b2baaae84b351b9b.bindPopup(popup_5fe64939d4154fe16140ab3e0c8696d3)
+        ;
+
+        
+    
+    
+            var circle_marker_0cf0376881c8986726927066b8349566 = L.circleMarker(
+                [37.5807525, 126.81254150000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.51, "stroke": true, "weight": 3}
+            ).addTo(map_04faf6353888b0ed63edd77499a1640a);
+        
+    
+        var popup_48006b37a9dda38b32f5090b33301ab4 = L.popup({"maxWidth": 300, "minWidth": 150});
+
+        
+            
+                var html_d4a1c34fd7e6d6449c42c8c9db2e0c39 = $(`<div id="html_d4a1c34fd7e6d6449c42c8c9db2e0c39" style="width: 100.0%; height: 100.0%;"><b>방화공원</b><br><br>- 길이 : 2.0㎞<br>- 방화역 4번출구<br>- 개화산과 연계되어 봄꽃이 아름다움(나들이)</div>`)[0];
+                popup_48006b37a9dda38b32f5090b33301ab4.setContent(html_d4a1c34fd7e6d6449c42c8c9db2e0c39);
+            
+        
+
+        circle_marker_0cf0376881c8986726927066b8349566.bindPopup(popup_48006b37a9dda38b32f5090b33301ab4)
+        ;
+
+        
+    
+</script>
+</html>
